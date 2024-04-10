@@ -1,0 +1,689 @@
+@charset "utf-8";
+/* CSS Document */
+*{scroll-behavior: smooth;
+scroll-padding-top:1rem;}
+body
+{
+	background:#1D1D1D;
+	margin: auto;
+	color:#4E2D2D;
+	font-family: "Be Vietnam Pro";
+}
+.top
+{
+	background: #F9BDAA;
+	border-radius: 50px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	font-size: 2rem;
+}
+.bg-pink{background: #F9BDAA}
+.bg-black{background:#1D1D1D}
+.bg-nav{background-color: transparent}
+.bg-cover{background-image: url( "../images/bg3.jpg");background-size: cover;background-repeat:no-repeat; position: relative}
+.pngblack{position: absolute}
+.bg-cover2{background-image: url(https://static.pingendo.com/cover-bubble-dark.svg);	background-position: right bottom;	background-size: cover;	background-repeat: repeat; background-attachment: fixed; top: 0px}
+.bg-gradient{background: linear-gradient(#ffc9ce,#f2ddc6,#dee0cc)}
+.bg-wcu
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 40px;
+	padding-top: 30px;
+	background: linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+	border-radius: 50px;
+	margin-top: 30px;
+	color: #1D1D1D;
+}
+.bg-fixed{
+	background-image: url( "../images/image726534.jpg"); background-position: right bottom;  background-size: cover; background-repeat: repeat; background-attachment: fixed; border-radius: 15px;
+}
+.bg-item{
+	background-color: white;
+	height: 100px;
+	width: 100%;
+	position: relative; 
+}
+.client-readmore{
+	position: absolute;
+	bottom: 10px
+}
+.service
+{
+	position: absolute;
+	background:linear-gradient( to right bottom ,antiquewhite,#FEC9CD,#FDACB2);
+	border-radius: 50%;
+	top: 0px;
+	left: 0px;
+}
+.shadow{box-shadow: 0,12px,2px,0.9px,black}
+.text-primary-light{font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+color: white}
+.text-primary-black{font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+color: #1D1D1D}
+.text-gradient
+{ background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+.text-gradient1 {
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+  background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient2 {
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-bg-gradient {
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 60px;
+  color: #1D1D1D
+}
+.text-gradient-nav
+{
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color:#1D1D1D
+}
+.text-gradient-nav a:hover
+{
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+   background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-ab-td
+{
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color:#FFFFFF;
+	font-size: 25px
+}
+.text-cover {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	color: #1D1D1D;
+	font-size: 90px
+}
+.be-vietnam-pro-semibold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+	color: #1D1D1D
+}
+.bg-port
+{
+	 color: #1D1D1D;
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-weight: 600;
+  font-style: normal;
+	border-radius: 50px;
+ 	background-image: linear-gradient(to left, #ffc9ce,#f2ddc6,#dee0cc)	
+}
+.bt-port a:hover
+{
+	text-decoration: none; color: #1D1D1D;
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+}
+.btn-price a{
+	background:#1D1D1D;
+	border-radius: 50px;
+	color: antiquewhite;
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+}
+.btn-price a:hover{
+	background: #9F5253;
+	border-radius: 50px;
+	text-decoration: none;
+	color:aliceblue
+}
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #FF5F6D 0%, #FFC371  51%, #FF5F6D  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+.btn-con {
+	font-family: "Be Vietnam Pro", sans-serif;
+	font-weight: 600;
+  font-style: normal;
+	background: linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+	width: 150px; height: 40px;
+	border-radius: 10px;
+  color:#1D1D1D;
+  background-color: #007bff;
+  border-color: #007bff;
+	text-decoration: none;
+	border-style: none
+}
+.btn-con:hover {
+  color: #1D1D1D;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+.price-getstarted{
+	
+}
+.brand-icon a{
+	color:white;
+}
+.brand-icon a:hover{
+	 background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-decoration: none;
+	
+}
+ul
+{
+	list-style-type: none;
+	padding: 0
+}
+.nav-item a{
+	background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+	font-size: 20px;
+	padding-bottom: 30px
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #1D1D1D;
+  background-image: linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+	font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+	font-size: 20px;
+	border-bottom: 2px solid #E4CBC5;
+	padding-bottom: 5px
+}
+nav a
+{
+	color: #1D1D1D
+}
+
+
+
+
+
+/*.reveal{
+	position: relative;
+	transform: translateY(150px);
+	opacity: 0;
+	transition: all 2s ease;
+	
+}
+.reveal.active{
+	position: relative;
+	transform: translateY(0px);
+	opacity: 1	
+}*/
+
+.owl-theme-cake .owl-nav {
+	font-size:3rem ;
+	background: #000000;
+	 color: #B88863;
+	position: absolute; width: 100%;
+		top:35%;	
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme-cake .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 40px;
+    margin: 5px;
+    padding: 5px 7px;
+    background: #B88863;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50px; }
+    .owl-theme-cake .owl-nav [class*='owl-']:hover {
+    background:#714B3B;
+	padding: 10px 10px;
+    color: #FFF;
+    text-decoration: none; }
+  .owl-theme-cake .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+
+.owl-theme-cake .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.owl-theme-cake .owl-dots {
+	/*border: 2px solid red;*/
+	
+	bottom: 20px;
+	width: 100%;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme-cake .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    .owl-theme-cake .owl-dots .owl-dot span {
+      width: 15px;
+      height: 15px;
+      margin: 25px 7px;
+      background:#B88863 ;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+    .owl-theme-cake .owl-dots .owl-dot.active span, .owl-theme-cake .owl-dots .owl-dot:hover span {
+      background:#2D2216; }
+.img-client
+{
+	width: 40%; height: auto;
+	border-radius: 50%;
+}
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bg-wcu{background: linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);}
+.timeline ul {
+  padding: 0px 0;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 3px;
+  padding-top: 50px;
+  background: #1D1D1D;
+	left: 20%
+
+}
+/*----------Nút Hồng------------*/
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 1;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 300px;
+  padding: 15px;
+  background: #1D1D1D;
+	color: white;
+	border-radius: 20px
+}
+
+
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #1D1D1D transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  left: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #f45b69;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #f45b69;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #f45b69 transparent transparent;
+  }
+}
+
+
+/* EXTRA/CLIP PATH STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline-clippy ul li::after {
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+}
+
+.timeline-rhombus ul li::after {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.timeline-rhombus ul li div::before {
+  bottom: 12px;
+}
+
+.timeline-star ul li::after {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.timeline-heptagon ul li::after {
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+.timeline-infinite ul li::after {
+  animation: scaleAnimation 5s infinite;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.25);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+.text-footer
+{
+	 background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+footer
+{
+	padding-top: 10px;
+	background-color:#1D1D1D;
+	color:#837C7C
+	
+}
+footer a{
+	color:#837C7C;
+}
+footer a:hover{
+	 background: -webkit-linear-gradient(#ffc9ce,#f2ddc6,#dee0cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-decoration: none;	
+}
+.containeri
+{
+	position: relative;
+	min-height: 100vh;
+	
+}
+.containeri .image-containeri{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	padding: 10px
+}
+.containeri .image-containeri .image{
+	height: 250px;
+	width: 350px;
+	overflow: hidden;
+	cursor: pointer
+}
+.containeri .image-containeri .image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: .2s linear
+}
+.containeri .image-containeri .image:hover img{
+	transform: scale(1.1)
+}
+.containeri .popup-image{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.9);
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	display: none;
+}
+.containeri .popup-image span{
+	position: absolute;
+	top:0;right: 10px;
+	font-size: 60px;
+	font-weight: bolder;
+	color: #fff;
+	cursor: pointer;
+	z-index: 100
+}
+.containeri .popup-image img{	
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	width: 750px;
+	object-fit: cover
+}
+@media (max-width:768px){
+	.containeri .popup-image img{
+		width: 95%
+		
+	}
+}
+
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  height: 80%;
+  max-height: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
